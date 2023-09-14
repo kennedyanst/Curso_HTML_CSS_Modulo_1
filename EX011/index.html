@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmias</h1>
+    <p>ABRA A IMAGEM EM OUTROS DISPOSITIVOS</p>
+    <picture>
+        <source media="(700px)" srcset="imagens/nike-P.jpg" type="image/png">
+        <source media="(min-width: 1000px)" srcset="imagens/nike-G.jpg" type="image/png">
+        <img src="imagens/nike-M.png" alt="Imagem fléxivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Reproduzindo audio</p>
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/21 Savage, Offset u0026 Metro Boomin[1].mp3" type="audio/mpeg">
+        <source src="midia/21 Savage, Offset u0026 Metro Boomin[1].ogg" type="audio/ogg">
+        <source src="midia/21 Savage, Offset u0026 Metro Boomin[1].wav" type="audio/wav">
+        <p>Infelizmente o navegador não tem suporte.</p>
+    </audio>
+</body>
+</html>
